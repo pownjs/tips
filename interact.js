@@ -8,7 +8,7 @@ function select(choices, done) {
         return {name: `${choice.value}: ${choice.name}`, value: choice.value}
     })
 
-    inquirer.prompt([{type: 'list', name: 'select', message: 'Select', choices: choices.concat([{name: 'Try again', value: -1}])}])
+    inquirer.prompt([{type: 'list', name: 'select', message: 'Select', choices: choices.concat([{name: 'Search again', value: -1}])}])
     .then((result) => {
         if (result.select === -1) {
             interact(done)
