@@ -28,6 +28,10 @@ Pown Tips is still in development and requires your support. It is easy to get s
 
 It is that easy. Once your tip is accepted it will become part of the Pown.js distribution and available for everyone to see.
 
+## Why Getting Tips
+
+Even the best hackers forget how to do common things and need to look things up - usually online. Pown Tips provides a reference of common scenarios available at your fingertips.
+
 ## Quickstart
 
 From the same directory as your project's package.json, install this module with the following command:
@@ -47,5 +51,3 @@ If installed globally or as part of Pown.js distribution invoke like this:
 ```sh
 $ pown tips
 ```
-
-##
