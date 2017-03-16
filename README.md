@@ -28,6 +28,12 @@ Pown Tips is still in development and requires your support. It is easy to get s
 
 It is that easy. Once your tip is accepted it will become part of the Pown.js distribution and available for everyone to see.
 
+Alternatively, the following number of features are urgently required:
+
+* [ ] Build article index for quick searching
+* [ ] Complete the search features so it actually searches
+* [ ] Provide means for other Pown.js modules to contribute tips
+
 ## Why Getting Tips
 
 Even the best hackers forget how to do common things and need to look things up - usually online. Pown Tips provides a reference of common scenarios available at your fingertips.
