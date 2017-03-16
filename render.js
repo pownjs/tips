@@ -11,7 +11,7 @@ const wrap = wordwrap(79)
 module.exports = (topic, done) => {
     topic = topic.toString()
 
-    fs.readFile(path.join('db', ('0000000' + topic).substring(topic.length) + '.md'), (err, data) => {
+    fs.readFile(path.join(__dirname, 'db', ('0000000' + topic).substring(topic.length) + '.md'), (err, data) => {
         if (err) {
             done(err)
 
