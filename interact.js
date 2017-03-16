@@ -3,9 +3,9 @@ const inquirer = require('inquirer')
 const render = require('./render')
 const search = require('./search')
 
-function select(choices, done) {
-    choices = choices.map((choice) => {
-        return {name: `${choice.value}: ${choice.name}`, value: choice.value}
+function select(options, done) {
+    const choices = options.map((option) => {
+        return {name: `${option.value}: ${option.name}`, value: option.value}
     })
 
     inquirer.prompt([{type: 'list', name: 'select', message: 'Select', choices: choices.concat([{name: 'Search again', value: -1}])}])
@@ -22,7 +22,7 @@ function select(choices, done) {
 
                 console.log(`\n${content}`)
 
-                select(choices, done)
+                select(options, done)
             })
         }
     })
