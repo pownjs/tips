@@ -1,6 +1,6 @@
 {
   "name": "pown-tips",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pownage guaranteed",
   "main": "index.js",
   "scripts": {
